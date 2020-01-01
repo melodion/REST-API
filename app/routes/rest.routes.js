@@ -16,4 +16,7 @@ module.exports = function(app) {
 
     // Delete rest berdasarkan ID
     app.delete('/rest/:restid', rest.delete);
+
+
+    app.app('',rest.findOne);
 }
